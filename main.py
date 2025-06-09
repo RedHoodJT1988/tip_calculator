@@ -30,8 +30,8 @@ def main():
 
         print("Tip calculation result")
         print(f'Total Tip: ${result['total_tip']}')
-        print(f'Total Amount: {result["total_amount"]}')
-        print(f'Amount per Person: {result["amount_per_person"]}')
+        print(f'Total Amount: ${result["total_amount"]}')
+        print(f'Amount per Person: ${result["amount_per_person"]}')
     except ValueError as e:
         print(f"Error: {e}")
 
